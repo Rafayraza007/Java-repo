@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Listing</title>
+  <link rel="icon" href="img/logo.png" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="download-removebg-preview.png" alt="logo" class="icon" />
+    </div>
+    <div class="nav-rights" id="nav-right">
+      <nav class="nav-linkse">
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Use Cases</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+      </nav>
+      <button class="quote-btnn">Request a quote</button>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </header>
+  <main>
+    <div class="products-container" id="products"></div>
+  </main>
+  <!-- === FOOTER SECTION === -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <!-- Top Row -->
+      <div class="footer-top">
+        <div class="footer-logo">★ Positivus</div>
+        <nav class="footer-links">
+          <a href="#">About us</a>
+          <a href="#">Services</a>
+          <a href="#">Use Cases</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+        </nav>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <!-- Main Content Row -->
+      <div class="footer-content">
+        <div class="footer-contact">
+          <span class="contact-label">Contact us:</span> <br /><br />
+          <p>Email: info@positivus.com</p>
+          <br />
+          <p>Phone: 555-567-8901</p>
+          <br />
+          <p>
+            Address: 1234 Main St<br />Moonstone City, Stardust State 12345
+          </p>
+        </div>
+        <div class="f-form">
+          <form class="subscribe-form">
+            <input type="email" placeholder="Email" required />
+            <button type="submit">Subscribe to news</button>
+          </form>
+        </div>
+      </div>
+      <!-- Bottom -->
+      <hr />
+      <div class="footer-bottom">
+        <p>© 2025 Product Store. All Rights Reserved.</p>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
